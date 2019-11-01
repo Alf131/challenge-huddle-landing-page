@@ -1,0 +1,112 @@
+@media (max-width: 860px) {
+    .top-columns-wrapper {
+       flex-direction: column;
+       text-align: center;
+       padding: 0;
+              
+    }
+    .left-column {
+        width: 100%;
+        margin: auto;
+    }
+    .right-column {
+        width: 100%;
+        margin: 0;
+    }
+    .right-column img {
+        padding: 0;
+        margin: 0;
+        margin-top: 60px;
+    }
+    .top-container {
+        height: 1000px;
+        padding: 20px 20px;
+    }
+    .top-bar img {
+        width: 165px;
+    }
+    .btn-top {
+        width: 100px;
+        font-size: 0.7em;
+        padding: 5px;
+        margin-right: 10px;
+    }
+    .intro-text {
+        margin: 0;
+        padding: 0;
+    }
+    .top-bar {
+        width: 100%;
+        padding: 0;
+    }
+    .btn-start {
+        width: 70%;
+    }
+    .mockups-img {
+    padding-right: 50px;
+    width: 100%;
+    margin-left: -40px;
+    }  
+    .middle-div {
+        flex-direction: column;
+        margin: auto;
+        margin-top: 30px;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+    } 
+    .text, .text-reverse {
+        margin: 20px 20px;
+    } 
+    .grow-img, .grow-img-reverse {
+        margin:auto;
+    }
+    .text {
+        order: 2;
+    }
+    .img {
+        order: 1;
+    }
+    .centered-button-div {
+    width: 90%;
+    left: 5%;
+    bottom: -15%;
+    font-size: small;
+    }
+    .centered-button-div > .btn-start {
+        width: 55%;
+        margin: 0px;
+        padding: 10px 10px;
+        font-size: 0.7rem;
+    }
+    .bottom-container {
+        margin-bottom: 200px;
+    }
+    .main-footer {
+        flex-direction: column;
+    }
+    .right-footer {
+        flex-direction: column;
+        margin-top: 30px;
+        width: 100%;
+        margin-bottom: -60px;
+        font-size: larger;
+    }
+    footer {
+        padding: 120px 20px 50px 20px;
+    }
+    .row2 {
+        margin-top: -20px;
+    }
+    .row3 {
+        text-align: center;
+        width: auto;
+        font-size: 1.4rem;
+    }
+    .spacer80 {
+        display: none;
+    }
+    .attribution {
+        text-align: center;
+    }
+}
